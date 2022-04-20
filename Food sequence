@@ -1,27 +1,32 @@
 #include<stdio.h>
 main()
 {
-        printf("Pick an item : \n1. Pen\n2. Pencil\n3. Book\n4. Notebook\n5. Crayons");
-        int choice=0;
-        scanf("%d",&choice);
-        
-        switch(choice)
-        {
-                  case1 : 
-                  printf("You picked Pen.");
-                  break;
-                  case2 :
-                  printf("You picked Pencil.");
-                  break;
-                  case3 :
-                  printf("You picked Book.");
-                  break;
-                  case4 :
-                  printf("You picked Notebook.");
-                  break;
-                  case5 :
-                  printf("You picked Crayons.");
+	printf("Pick an item : \n1. Pen\n2. Pencil\n3. Book\n4. Notebook\n5. Crayons \n");
+	int choice = 0;
+	scanf("%d",&choice);
+
+	switch(choice)
+	{
+	  case 1 : 
+	  printf("You picked Pen.");
+	  break;
+	  case 2 :
+	  printf("You picked Pencil.");
+	  break;
+	  case 3 :
+	  printf("You picked Book.");
+	  break;
+	  case 4 :
+	  printf("You picked Notebook.");
+	  break;
+	  case 5 :
+	  printf("You picked Crayons.");
+	  break;
+	  default:
+	  printf("Pick correct Item");	
+    
+    }
+    return 0;
+    }
                 
-                  }
-                  }
-        
+          
